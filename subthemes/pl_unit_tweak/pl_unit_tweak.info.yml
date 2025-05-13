@@ -1,7 +1,7 @@
 name: DU Unit Patternlab TWEAKED
 type: theme
 description: Unit theme with Pattern Lab
-base theme: pl_drupal
+base theme: pl_drupal_tweak
 core_version_requirement: ^8 || ^9
 libraries: {}
 regions:
