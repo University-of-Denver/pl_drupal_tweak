@@ -1,6 +1,6 @@
 {
   "name":             "university-of-denver/pl_drupal_tweak",
-  "version":          "3.0.1",
+  "version":          "3.0.2",
   "description":      "Fork of DU's Fork of Standard Edition of Pattern Lab for Drupal.",
   "keywords":         ["pattern lab", "drupal"],
   "homepage":         "http://patternlab.io",
