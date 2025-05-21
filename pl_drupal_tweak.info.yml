@@ -2,7 +2,7 @@ name: Drupal Patternlab TWEAKED
 type: theme
 description: Base theme with Pattern Lab
 base theme: false
-version: 3.0.3
+version: 3.0.4
 core_version_requirement: ^8 || ^9 || ^10
 libraries:
   - pl_drupal_tweak/core
