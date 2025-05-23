@@ -11664,7 +11664,7 @@ blockquote {
     -webkit-filter: brightness(0.85);
     filter: brightness(0.85); }
   .category-list.category-list--purple li:nth-child(6n+1) a {
-    background-color: ##BA0C2F; }
+    background-color: #BA0C2F; }
   .category-list.category-list--purple li:nth-child(6n+2) a {
     background-color: #BA0C2F; }
   .category-list.category-list--purple li:nth-child(6n+3) a {
@@ -12151,7 +12151,7 @@ a.btn {
   button.default:focus,
   a.btn:hover,
   a.btn:focus {
-    background-color: #D5D2C5; }
+    filter: brightness(0.8); }
   .btn.btn--small,
   button.default.btn--small,
   a.btn.btn--small {
@@ -23422,9 +23422,9 @@ body:not(.du-home) .swapping-img-feature {
 
 div.testimonial-blockquote blockquote {
   background: #fefefe;
-  border-left: solid 0.2rem ##375360; }
+  border-left: solid 0.2rem #375360; }
   div.testimonial-blockquote blockquote p, div.testimonial-blockquote blockquote cite {
-    color: ##375360; }
+    color: #375360; }
   div.testimonial-blockquote blockquote cite {
     margin-bottom: 1.5rem;
     line-height: 2.2rem; }
