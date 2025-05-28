@@ -370,7 +370,7 @@
             text-transform: none;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
-            color: #18161F;
+            color: #000000;
             align-self: center;
             @include breakpoint(medium up) {
               font-size: 2rem;
@@ -542,7 +542,7 @@
                 &.icon-du-cust-menu,
                 &.du-icon-cust-menu {
                   font-size: 2.5rem;
-                  color: #18161F;
+                  color: #000000;
                   background: $neutral-color-6;
                   &:before {
                     line-height: auto;
