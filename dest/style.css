@@ -3948,8 +3948,7 @@ code, .code-inline {
     background-color: #D5D2C5;
     color: #fefefe; }
   .button:hover, .button:focus {
-    background-color: #375060;
-    color: #fefefe; }
+    filter: brightness(0.8);}
   .button.primary, .button.primary.disabled, .button.primary[disabled], .button.primary.disabled:hover, .button.primary[disabled]:hover, .button.primary.disabled:focus, .button.primary[disabled]:focus {
     background-color: #D5D2C5;
     color: #fefefe; }
