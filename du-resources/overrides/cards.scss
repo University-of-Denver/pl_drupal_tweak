@@ -116,7 +116,7 @@
       > .row > .columns:first-child .cards-module__content {
         border-top: .2rem solid $neutral-color-4;
         &.expanded {
-          border-top: .5rem solid #d4c092;
+          border-top: .5rem solid #D5D2C5;
           margin-top: 0;
         }
       }
@@ -129,7 +129,7 @@
           border-color: $neutral-color-4;
           &.expanded {
             border-width: .5rem 0;
-            border-color: #d4c092;
+            border-color: #D5D2C5;
             margin-top: -.2rem;
             > h4 {
               + .cards-module__hidden-on-small {
