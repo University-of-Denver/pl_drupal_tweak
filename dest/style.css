@@ -10497,7 +10497,7 @@ table {
         font-size: 3.2rem; } }
     @media print, screen and (min-width: 64em) {
       .catastrophic-alert header h2, .catastrophic-alert header .hero-headline-wrapper .hero-subhead, .hero-headline-wrapper .catastrophic-alert header .hero-subhead {
-        font-size: 3.8rem; } }
+        font-size: 3.6rem; } }
 
 @media print, screen and (min-width: 64em) {
   .catastrophic-alert aside {
@@ -14168,7 +14168,7 @@ article#main-content div.row #profile-list-counselors .resource-listing, article
       font-family: "Fontello"; }
       @media print, screen and (min-width: 48em) {
         .additional-info--has-icons .info-text h2, .additional-info--has-icons .info-text .hero-headline-wrapper .hero-subhead, .hero-headline-wrapper .additional-info--has-icons .info-text .hero-subhead {
-          font-size: 3.8rem; } }
+          font-size: 3.6rem; } }
       @media print, screen and (min-width: 64em) {
         .additional-info--has-icons .info-text h2, .additional-info--has-icons .info-text .hero-headline-wrapper .hero-subhead, .hero-headline-wrapper .additional-info--has-icons .info-text .hero-subhead {
           font-size: 4.5rem; } }
@@ -14435,7 +14435,7 @@ article#main-content div.row #profile-list-counselors .resource-listing, article
       font-family: "Fontello"; }
       @media print, screen and (min-width: 48em) {
         .course-info__rightside--has-icons .info-text h2, .course-info__rightside--has-icons .info-text .hero-headline-wrapper .hero-subhead, .hero-headline-wrapper .course-info__rightside--has-icons .info-text .hero-subhead {
-          font-size: 3.8rem; } }
+          font-size: 3.6rem; } }
       @media print, screen and (min-width: 64em) {
         .course-info__rightside--has-icons .info-text h2, .course-info__rightside--has-icons .info-text .hero-headline-wrapper .hero-subhead, .hero-headline-wrapper .course-info__rightside--has-icons .info-text .hero-subhead {
           font-size: 4.5rem; } }
@@ -14546,7 +14546,7 @@ article#main-content div.row #profile-list-counselors .resource-listing, article
         line-height: 3.2rem; }
         @media print, screen and (min-width: 48em) {
           .cta-module.cta-module--large .content h2, .cta-module.cta-module--large .content .hero-headline-wrapper .hero-subhead, .hero-headline-wrapper .cta-module.cta-module--large .content .hero-subhead {
-            font-size: 3.8rem;
+            font-size: 3.6rem;
             line-height: 4.2rem; } }
         @media print, screen and (min-width: 64em) {
           .cta-module.cta-module--large .content h2, .cta-module.cta-module--large .content .hero-headline-wrapper .hero-subhead, .hero-headline-wrapper .cta-module.cta-module--large .content .hero-subhead {
@@ -14814,7 +14814,7 @@ article#main-content div.row #profile-list-counselors .resource-listing, article
       margin-left: 0;
       margin-right: 0; } }
   .du-news-list-content h3 {
-    font-size: 3.8rem;
+    font-size: 3.4rem;
     font-weight: 500;
     margin-bottom: 4.1rem; }
   @media print, screen and (max-width: 63.99875em) {
@@ -18746,7 +18746,7 @@ header .hero-title {
 
 @media screen and (max-width: 775px) {
   .unit-site.du-home header #hero-media__caption h1, .unit-site.du-home header #hero-media__caption .hero-headline-wrapper .hero-headline, .hero-headline-wrapper .unit-site.du-home header #hero-media__caption .hero-headline, .unit-site.du-home header #hero-media__caption h2, .unit-site.du-home header #hero-media__caption .hero-headline-wrapper .hero-subhead, .hero-headline-wrapper .unit-site.du-home header #hero-media__caption .hero-subhead {
-    font-size: 3.8rem;
+    font-size: 3.6rem;
     line-height: 4.1rem;
     padding-left: 1.0rem; } }
 
@@ -18954,7 +18954,7 @@ header .hero-title {
         line-height: 5.5rem; } }
     @media print, screen and (max-width: 47.99875em) {
       .du-home #main-content h1, .du-home #main-content .hero-headline-wrapper .hero-headline, .hero-headline-wrapper .du-home #main-content .hero-headline, .du-home #main-content h2, .du-home #main-content .hero-headline-wrapper .hero-subhead, .hero-headline-wrapper .du-home #main-content .hero-subhead {
-        font-size: 3.8rem;
+        font-size: 3.4rem;
         line-height: 3.8rem;
         margin-top: 1.5rem; } }
   .du-home #main-content h3 {
@@ -20666,7 +20666,7 @@ youtube-embed.yt-activated > .yt-playbtn {
         line-height: 5.5rem; } }
     @media print, screen and (max-width: 47.99875em) {
       .top-news-story .news-title h3 {
-        font-size: 3.8rem;
+        font-size: 3.4rem;
         line-height: 3.8rem; } }
     .top-news-story .news-title h3 a {
       color: #18171e;
@@ -20998,7 +20998,7 @@ youtube-embed.yt-activated > .yt-playbtn {
   .two-column-news-header h3 {
     text-align: center; }
   .two-column-news-header h3.btm-divider {
-    font-size: 3.8rem;
+    font-size: 3.4rem;
     font-weight: 500;
     line-height: 1.3;
     margin-bottom: 1.2rem; }
