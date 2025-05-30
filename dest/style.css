@@ -12159,8 +12159,8 @@ a.btn {
   .btn.btn--white,
   button.default.btn--white,
   a.btn.btn--white {
-    color: #A89968;
-    background-color: white; }
+    color: white;
+    background-color: #A89968; }
     .btn.btn--white:hover, .btn.btn--white:focus,
     button.default.btn--white:hover,
     button.default.btn--white:focus,
@@ -12168,7 +12168,7 @@ a.btn {
     a.btn.btn--white:focus {
       background-color: #A89968;
       color: white;
-      border: .3rem solid white; }
+      /* border: .3rem solid white; */  }
   .btn.btn--dark-red,
   button.default.btn--dark-red,
   a.btn.btn--dark-red {
