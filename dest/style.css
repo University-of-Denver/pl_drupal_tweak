@@ -14630,7 +14630,7 @@ article#main-content div.row #profile-list-counselors .resource-listing, article
   .cta-module--overlay-gold .content .btn-wrap .btn {
     background-color: #375060; }
     .cta-module--overlay-gold .content .btn-wrap .btn:hover {
-      background-color: #375060; }
+      filter: brightness(0.8); }
   .cta-module .content h2, .cta-module .content .hero-headline-wrapper .hero-subhead, .hero-headline-wrapper .cta-module .content .hero-subhead {
     color: white;
     font-weight: 800;
