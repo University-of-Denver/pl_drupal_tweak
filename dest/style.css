@@ -11217,7 +11217,7 @@ blockquote {
       font-family: neue-haas-unica, sans-serif;
       font-size: 2.6rem;
       line-height: 3.4rem;
-      font-weight: 800;
+      font-weight: 700;
       transition: color 0.3s ease; }
       .card-list-item--open .cards-list__holder .cards-list__content .cards-list-module__title h2.cards-list-title, .card-list-item--open .cards-list__holder .cards-list__content .cards-list-module__title .hero-headline-wrapper .cards-list-title.hero-subhead, .hero-headline-wrapper .card-list-item--open .cards-list__holder .cards-list__content .cards-list-module__title .cards-list-title.hero-subhead {
         color: #BA0C2F; }
