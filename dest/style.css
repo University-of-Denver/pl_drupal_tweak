@@ -19249,7 +19249,7 @@ body.unit-site.du-home header .hero-media > video {
           margin-top: 0; } }
       .information-overview-module .quick-fact-module__content h3 strong {
         color: #375060;
-        font-family: neue-haas-unica, sans-serif;
+        font-family: sole-serif-small-variable, serif;
         font-weight: bold;
         font-size: 6.5rem;
         line-height: 6.5rem; }
@@ -19259,7 +19259,7 @@ body.unit-site.du-home header .hero-media > video {
         @media print, screen and (min-width: 64em) {
           .information-overview-module .quick-fact-module__content h3 strong {
             line-height: 12.5rem;
-            font-size: 9.5rem; } }
+            font-size: 7rem; } }
     .information-overview-module .quick-fact-module__content span.headline {
       font-family: neue-haas-unica, sans-serif;
       text-align: center;
@@ -19270,11 +19270,11 @@ body.unit-site.du-home header .hero-media > video {
       font-weight: 400; }
       @media print, screen and (min-width: 64em) {
         .information-overview-module .quick-fact-module__content span.headline {
-          font-weight: 300;
+          font-weight: 400;
           font-size: 2.7rem;
           line-height: 3.5rem; } }
     .information-overview-module .quick-fact-module__content span.caption {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
       font-weight: 400;
       margin: .5rem 0 0;
       font-style: normal; }
@@ -20653,7 +20653,7 @@ youtube-embed.yt-activated > .yt-playbtn {
       .top-news-story .news-article-container {
         margin-left: 0; } }
   .top-news-story .news-date {
-    font-size: 1.8rem; }
+    font-size: 2rem; }
   .top-news-story .news-title h3 {
     text-align: left;
     font-size: 4rem;
@@ -20663,7 +20663,7 @@ youtube-embed.yt-activated > .yt-playbtn {
     margin: 0.18rem 0 1.8rem 0; }
     @media print, screen and (min-width: 64em) {
       .top-news-story .news-title h3 {
-        font-size: 5.5rem;
+        font-size: 4.5rem;
         line-height: 5.5rem; } }
     @media print, screen and (max-width: 47.99875em) {
       .top-news-story .news-title h3 {
@@ -20676,7 +20676,7 @@ youtube-embed.yt-activated > .yt-playbtn {
         color: #D5D2C5; }
   .top-news-story .news-category {
     text-align: left;
-    font-size: 1.8rem; }
+    font-size: 2rem; }
     .top-news-story .news-category a {
       color: #375060;
       text-decoration: none; }
@@ -26957,4 +26957,8 @@ li.tabs__tab a {
 
 .feature-video-module cite {
   font-style: normal;
+}
+
+.news-category a {
+  font-weight: 700;
 }
