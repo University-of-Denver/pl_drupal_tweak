@@ -19440,7 +19440,6 @@ body.unit-site.du-home header .hero-media > video {
   .key-faculty .name {
     margin-top: 1.4rem;
     flex: 1 1 auto;
-    overflow-y: auto;
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto;
@@ -25171,9 +25170,7 @@ div.faculty-profile-container {
     padding-left: 0; }
   @media print, screen and (min-width: 48em) {
     div.faculty-profile-container {
-      text-align: left; }
-      div.faculty-profile-container .information {
-        padding-left: 10%; } }
+      text-align: left; } }
 
 .unit-site header {
   height: initial;
