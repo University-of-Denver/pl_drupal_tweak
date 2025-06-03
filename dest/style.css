@@ -11011,8 +11011,8 @@ blockquote {
   width: 100%;
   font-weight: bold;
   font-size: 2.0rem;
-  font-family: neue-haas-unica, sans-serif;
-  font-style: italic;
+  font-family: sole-serif-small-variable, serif;
+  font-style: normal;
   padding-bottom: 1.0rem;
   padding-left: 1.3rem;
   padding-right: 1.3rem; }
@@ -26956,4 +26956,8 @@ li.tabs__tab a {
 
 .slide-content > p > span {
   font-weight: 600;
+}
+
+.feature-video-module cite {
+  font-style: normal;
 }
