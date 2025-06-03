@@ -14550,7 +14550,7 @@ article#main-content div.row #profile-list-counselors .resource-listing, article
             line-height: 4.2rem; } }
         @media print, screen and (min-width: 64em) {
           .cta-module.cta-module--large .content h2, .cta-module.cta-module--large .content .hero-headline-wrapper .hero-subhead, .hero-headline-wrapper .cta-module.cta-module--large .content .hero-subhead {
-            font-size: 4.2rem;
+            font-size: 3.6rem;
             margin-bottom: 1.8rem; } }
         .cta-module.cta-module--large .content h2 + p, .cta-module.cta-module--large .content .hero-headline-wrapper .hero-subhead + p, .hero-headline-wrapper .cta-module.cta-module--large .content .hero-subhead + p {
           padding-top: 1.8rem;
