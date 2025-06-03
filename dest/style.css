@@ -26953,3 +26953,7 @@ li.tabs__tab a {
 .is-horizontal .tabs.secondary .tabs__tab:hover,
 .is-horizontal .tabs.secondary .tabs__tab:focus {
   border-bottom-color: #375060; }
+
+.slide-content > p > span {
+  font-weight: 600;
+}
