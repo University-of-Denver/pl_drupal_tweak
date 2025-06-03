@@ -17662,7 +17662,7 @@ article#main-content div.row #profile-list-counselors .resource-listing, article
         margin: 0 0 3.5rem 0;
         padding: 0 1.0rem 1.0rem 10.0rem; } }
     .featured-articles-module .featured-articles__slide .featured-articles__content .featured-articles__category {
-      font-size: 1.7rem;
+      font-size: 2.4rem;
       font-weight: 600;
       color: #8a8a8a;
       margin-bottom: 0;
@@ -17675,7 +17675,7 @@ article#main-content div.row #profile-list-counselors .resource-listing, article
       line-height: 2.8rem;
       font-weight: normal;
       margin-bottom: 2.7rem;
-      text-align: center; }
+      text-align: left; }
       @media print, screen and (min-width: 48em) {
         .featured-articles-module .featured-articles__slide .featured-articles__content h3 {
           font-size: 4.0rem;
