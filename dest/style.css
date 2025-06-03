@@ -15401,7 +15401,7 @@ article#main-content div.row #profile-list-counselors .resource-listing, article
     #enhanced-expanding-list-container ul.accordion .accordion-item h4, #school-list-container ul.accordion .accordion-item h4 {
       color: #375060;
       font-family: neue-haas-unica, sans-serif;
-      font-style: italic;
+      font-style: normal;
       font-weight: 700;
       font-size: 2.4rem; }
       @media screen and (min-width: 767px) and (max-width: 1023px) {
