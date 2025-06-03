@@ -15452,14 +15452,16 @@ article#main-content div.row #profile-list-counselors .resource-listing, article
       .event-card p {
         font-size: 1.6rem; } }
     .event-card p:first-child {
-      font-size: 1.7rem; }
+      font-size: 2rem; 
+      font-weight: 900;}
     .event-card p [class*="icon-du"] {
       color: #18171e; }
   .event-card h3 {
     font-size: 2.2rem;
     line-height: 2.8rem;
     margin-top: .6rem;
-    color: #18171e; }
+    color: #18171e; 
+    font-weight: 600;}
     @media print, screen and (min-width: 48em) {
       .event-card h3 {
         font-size: 2.6rem;
