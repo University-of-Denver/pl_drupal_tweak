@@ -12504,7 +12504,7 @@ ul.accordion li {
 
 .accordion-item a.accordion-title,
 #main-content .accordion-item a.accordion-title {
-  background-color: #D5D2C5;
+  background-color: #e0dbce;
   color: #525252;
   font-family: neue-haas-unica, sans-serif;
   font-weight: 700;
@@ -12514,7 +12514,7 @@ ul.accordion li {
   #main-content .accordion-item a.accordion-title:hover,
   #main-content .accordion-item a.accordion-title:focus {
     text-decoration: none;
-    background-color: #757575;
+    background-color: #54565B;
     color: white; }
   .accordion-item a.accordion-title:before,
   #main-content .accordion-item a.accordion-title:before {
@@ -12525,7 +12525,7 @@ ul.accordion li {
 
 .accordion-item.is-active a.accordion-title,
 #main-content .accordion-item.is-active a.accordion-title {
-  background-color: #757575;
+  background-color: #54565B;
   color: white; }
   .accordion-item.is-active a.accordion-title:before,
   #main-content .accordion-item.is-active a.accordion-title:before {
