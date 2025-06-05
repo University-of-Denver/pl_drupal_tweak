@@ -660,7 +660,6 @@ blockquote {
   padding: 2.8rem 4rem 2.8rem 4rem;
   border-left: 0 none; }
   blockquote, blockquote p {
-    line-height: 28px;
     color: #18171e; }
 
 abbr, abbr[title] {
@@ -20657,8 +20656,8 @@ youtube-embed.yt-activated > .yt-playbtn {
     margin: 0.18rem 0 1.8rem 0; }
     @media print, screen and (min-width: 64em) {
       .top-news-story .news-title h3 {
-        font-size: 4.5rem;
-        line-height: 5.5rem; } }
+        font-size: 4rem;
+        line-height: 5rem; } }
     @media print, screen and (max-width: 47.99875em) {
       .top-news-story .news-title h3 {
         font-size: 3.4rem;
