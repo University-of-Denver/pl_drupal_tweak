@@ -17666,15 +17666,13 @@ article#main-content div.row #profile-list-counselors .resource-listing, article
       font-weight: 600;
       color: #8a8a8a;
       margin-bottom: 0;
-      text-align: center; }
+      text-align: left; }
       .featured-articles-module .featured-articles__slide .featured-articles__content .featured-articles__category + h3 {
-        margin-top: .5rem;
         line-height: 1; }
     .featured-articles-module .featured-articles__slide .featured-articles__content h3 {
       font-size: 2.2rem;
       line-height: 2.8rem;
       font-weight: normal;
-      margin-bottom: 2.7rem;
       text-align: left; }
       @media print, screen and (min-width: 48em) {
         .featured-articles-module .featured-articles__slide .featured-articles__content h3 {
@@ -17685,10 +17683,6 @@ article#main-content div.row #profile-list-counselors .resource-listing, article
         @media print, screen and (min-width: 48em) {
           .featured-articles-module .featured-articles__slide .featured-articles__content h3 + p {
             display: block; } }
-      .featured-articles-module .featured-articles__slide .featured-articles__content h3.btm-divider:after {
-        left: 50%;
-        -webkit-transform: translateX(-50%);
-        transform: translateX(-50%); }
     .featured-articles-module .featured-articles__slide .featured-articles__content p {
       font-family: neue-haas-unica, sans-serif;
       font-size: 1.6rem;
