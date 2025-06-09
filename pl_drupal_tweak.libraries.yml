@@ -4,8 +4,6 @@ core:
     theme:
       /libraries/motion-ui/dist/motion-ui.min.css:
         preprocess: true
-      dest/style.css:
-        preprocess: false
 
   js:
     /libraries/foundation-sites/dist/js/foundation.min.js:
