@@ -4,16 +4,16 @@ core:
     theme:
       /core/themes/seven/css/components/tabs.css:
          preprocess: false
-      bower_components/motion-ui/dist/motion-ui.min.css:
+      /libraries/motion-ui/dist/motion-ui.min.css:
         preprocess: true
       dest/style.css:
         preprocess: false
   js:
-    dest/script.js:
+    /themes/contrib/pl_drupal_tweak/dest/script.js:
       preprocess: true
-    bower_components/foundation-sites/dist/js/foundation.min.js:
+    /libraries/foundation-sites/dist/js/foundation.min.js:
       preprocess: true
-    js/app.js:
+    /themes/contrib/pl_drupal_tweak/js/app.js:
       preprocess: true
 
   # see all in Drupal's `core/core.libraries.yml`
