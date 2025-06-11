@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# To use this script, first make it executable by running 'chmod +x scripts/bump_version.sh'
+# Then run the script with either "./scripts/bump_version.sh <VERSION NUMBER>" or "bash scripts/bump_version.sh <VERSION NUMBER>"
+
 # Resolve the directory of this script
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # Assume the repo root is the parent of the script directory
