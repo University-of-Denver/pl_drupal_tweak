@@ -11038,7 +11038,6 @@ blockquote p {
 .blockquote__background:before {
   content: "";
   background: #ffffff;
-  border-top: 0.6rem solid #d1d1d2;
   position: absolute;
   right: 0;
   top: 0;
