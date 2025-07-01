@@ -13992,7 +13992,7 @@ body:not(.unit-site).du-home .colorado-womens-college header {
     margin-left: 0; }
     .kennedy-mountain-campus .header .utility-menu .menu li a {
       background-color: white;
-      color: #A89968; }
+      color: #525252; }
 
 .paragraph--type--counselor-and-staff-directory {
   padding-bottom: 10rem; }
@@ -23421,7 +23421,7 @@ body:not(.du-home) .swapping-img-feature {
 
 div.testimonial-blockquote blockquote {
   background: #fefefe;
-  border-left: solid 0.2rem #375360; }
+  }
   div.testimonial-blockquote blockquote p, div.testimonial-blockquote blockquote cite {
     color: #375360; }
   div.testimonial-blockquote blockquote cite {
@@ -24939,7 +24939,6 @@ body .hero-overlay {
           opacity: 1; }
     .unit-header .hero-media__caption .hero-media__caption__text p {
       color: #fff;
-      opacity: 0.5;
       margin-bottom: 0;
       font-size: 1.6rem;
       line-height: 2.0rem;
