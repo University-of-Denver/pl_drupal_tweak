@@ -19397,12 +19397,13 @@ body.unit-site.du-home header .hero-media > video {
       font-size: 1.6rem;
       font-family: neue-haas-unica, sans-serif;
       display: inline-block;
-      color: white;
-      background-color: #A89968; }
+      color: #BA0C2F;
+      background-color: #ffffff; }
       .key-faculty .one_col .learn-more .icon-du-cust-right-arrow:before {
         display: none; }
       .key-faculty .one_col .learn-more:hover {
-        background-color: #A89968; }
+      background-color: #BA0C2F;
+      color: #ffffff }
       .key-faculty .one_col .learn-more a:hover {
         text-decoration: none; }
     .key-faculty .one_col .key-profile-background:last-child {
@@ -25689,21 +25690,14 @@ div.faculty-profile-container {
 
 
 /*start of css to fix mobile hamburger wrapping added by mac w 7-7-25*/
+
 @media (max-width: 767px) {
   .top-bar .row.expanded {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
-    padding: 0 1rem;
-    overflow: hidden;
-  }
-
-  .top-bar .columns.shrink {
-    flex: 1 1 auto;
-    display: flex;
-    align-items: center;
-    min-width: 0;
+    padding: .3rem 0rem .3rem 1rem;
     overflow: hidden;
   }
 
@@ -25723,15 +25717,86 @@ div.faculty-profile-container {
     flex-shrink: 0;
   }
 
-  .unit-nav-group #main-menu-wrap .logo .site-identity .site-name,
-  .unit-nav-group #top-bar-sticky-wrap.is-stuck #main-menu-wrap .logo .site-identity .site-name {
-    font-size: 1.6rem !important; 
-    line-height: 1.2;
-    display: block;
+ .unit-nav-group #main-menu-wrap .logo .site-identity .site-name,
+.unit-nav-group #top-bar-sticky-wrap.is-stuck #main-menu-wrap .logo .site-identity .site-name {
+  font-size: 1.6rem !important;
+  line-height: 1.2;
+  display: block;
+  white-space: normal;
+  word-break: break-word;
+  overflow: hidden;
+  max-width: calc(100vw - 100px); /* leave room for logo + burger */
+}
+
+.unit-nav-group #top-bar-sticky-wrap.is-stuck .top-bar .row.expanded {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.unit-nav-group #top-bar-sticky-wrap.is-stuck .top-bar .columns.shrink {
+  display: flex !important;
+  flex: 1 1 auto !important;
+  align-items: center !important;
+  min-width: 0 !important;
+}
+
+
+.unit-nav-group .top-bar .row.expanded {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.unit-nav-group .top-bar .columns.shrink {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  min-width: 0;
+}
+
+
+  .unit-nav-group #main-menu-wrap .logo .site-prefix {
+    font-size: 1.1rem!important;
+    line-height: 1.2!important;
+  }
+
+  .unit-nav-group #top-bar-sticky-wrap.is-stuck #main-menu-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: auto;
+  min-height: 5rem;
+  gap: 1rem; /* Optional spacing between logo and menu */
+}
+
+.unit-nav-group #top-bar-sticky-wrap.is-stuck .logo {
+  display: flex;
+  align-items: center;
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+}
+
+
+.top-bar .columns.shrink,
+.unit-nav-group #top-bar-sticky-wrap.is-stuck .top-bar .columns.shrink {
+  display: flex !important;
+  flex: 1 1 auto !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  min-width: 0 !important;
+  overflow: hidden !important;
+}
+
+  .unit-nav-group #top-bar-sticky-wrap.is-stuck .site-name {
     white-space: normal;
     word-break: break-word;
-    overflow: hidden;
-    max-width: calc(100vw - 100px); /* leave room for logo + burger */
+    line-height: 1.2;
   }
 
   #main-menu {
@@ -25743,14 +25808,6 @@ div.faculty-profile-container {
     overflow-x: hidden;
   }
 }
-
-
- 
-
-
-
-
-
 
 /*end of css added by mac w 7-7-25*/
 
@@ -26000,7 +26057,16 @@ div.faculty-profile-container {
     .unit-nav-group #top-bar-sticky-wrap.is-stuck {
       box-shadow: 0 0.2rem 0.7rem 0 rgba(0, 0, 0, 0.3); }
       .unit-nav-group #top-bar-sticky-wrap.is-stuck #main-menu-wrap {
-        height: 6rem; }
+        /*height: 6rem;*/
+      /*new dynamic height after scroll mac w 7-8-25*/
+      height: auto;
+      min-height: 5rem; /* Optional baseline */
+      padding-top: 0.1rem;
+      padding-bottom: 0.1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap; }
         .unit-nav-group #top-bar-sticky-wrap.is-stuck #main-menu-wrap .logo .site-logo {
           width: auto;
           align-items: center; }
