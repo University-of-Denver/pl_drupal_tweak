@@ -16,7 +16,7 @@
         </p>
 
         <nav id="sub-menu"{% if is_tab_menu %} class="sub-menu--horizontal"{% endif %} aria-label="sub-navigation"{% if role %} data-role="{{ role }}"{% endif %}>
-            {% if current_theme == 'micro' %}
+            {% if ('unit' in directory) or ('micro'== directory) %}
                 {% block subnav %}
                     {{ subnav }}
                 {% endblock %}
